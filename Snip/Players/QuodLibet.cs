@@ -1,6 +1,6 @@
 ﻿#region File Information
 /*
- * Copyright (C) 2012-2017 David Rudie
+ * Copyright (C) 2012-2018 David Rudie
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -80,7 +80,7 @@ namespace Winter
                 }
                 else
                 {
-                    TextHandler.UpdateTextAndEmptyFilesMaybe(Globals.ResourceManager.GetString("NoTrackPlaying"));
+                    TextHandler.UpdateTextAndEmptyFilesMaybe(LocalizedMessages.NoTrackPlaying);
                 }
             }
             else
@@ -93,8 +93,8 @@ namespace Winter
                 TextHandler.UpdateTextAndEmptyFilesMaybe(
                     string.Format(
                         CultureInfo.InvariantCulture,
-                        Globals.ResourceManager.GetString("PlayerIsNotRunning"),
-                        Globals.ResourceManager.GetString("QuodLibet")));
+                        LocalizedMessages.PlayerIsNotRunning,
+                        LocalizedMessages.QuodLibet));
             }
         }
 

@@ -19,7 +19,7 @@ Contributors
 * Volker Königsbüscher
   * German translation
 
-* SirMarksomnian
+* Marks Polakovs (markspolakovs)
   * Unicode WebClient support
   * Updated artwork downloading for Spotify
 
@@ -40,7 +40,7 @@ Contributors
   * Polish translation
   * VLC file extension filtering
 
-* jingtongtangflee
+* henryolik
   * Czech translation
   
 * Stathis Galazios (nFin1ty)
@@ -54,3 +54,8 @@ Contributors
   
 * Jens Møller
   * Danish translation
+
+* David (GenesisFR)
+  * Determine if Spotify is playing an ad and empty files
+  * Empty Snip.txt on exit
+  * Refactored Settings.cs and Snip.cs

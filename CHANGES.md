@@ -1,5 +1,38 @@
 CHANGES
 =======
+**v6.10.2 (2018-Jul-24):**
+* Merged pull request #267 from GenesisFR, which refactors a lot of code and
+    clears out artwork when Snip is exited.
+* #306 <https://github.com/dlrudie/Snip/issues/306> Snip now checks the
+    parent process to make sure it's actually Spotify.
+
+**v6.10.1 (2018-Jul-22):**
+* #304 <https://github.com/dlrudie/Snip/issues/299> Snip will now require
+    administrator access upon launching.
+* Fixed version update checking not working.
+
+**v6.10.0 (2018-Jul-21):**
+* When enabling save separate files Snip will now save Spotify metadata to
+    Snip_Metadata.json.
+* #255 <https://github.com/dlrudie/Snip/issues/255> Fixed Spotify hotkeys.
+* Cleaned up localization code internally.
+* #199 <https://github.com/dlrudie/Snip/issues/199> Snip can now be run
+    multiple times. I'm not sure how this will work but have at it.
+* Changed Spotify back to AnyCPU from 64-bit.
+* #299 <https://github.com/dlrudie/Snip/issues/299> Fixes Spotify not
+    working since Spotify shut down their desktop API.
+
+**v6.9.5 (2018-Apr-01):**
+* Updated copyright to 2018.
+* Renamed quodlibet to Quod Libet.
+* Moved Quod Libet in the menu.
+* Snip is now 64-bit only.
+* Snip now erases Snip.txt on exit.
+* If an ad is playing in Spotify it will empty the text file.
+* Removed excess strings from resource files.
+* Removed "tiny" size from artwork as Spotify stopped supporting it.
+* Spotify port detection code is now threaded so Snip will no longer freeze.
+
 **v6.9.1 (2017-Jul-06):**
 * Czech translation corrections by jingtongtangflee.
 * Snip will now loop through various ports to find the correct port to
